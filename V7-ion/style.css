@@ -8,10 +8,10 @@
 	max-width: 1280px;
 	margin: 0 auto;
 }
-.header {
+header {
   background: #fff;
   color: #555f66;
-  height: 10px;
+  height: 40px;
   left: 0;
   position: fixed;
   top: 0;
@@ -19,17 +19,28 @@
   z-index: 1;
 
 }
+.logo {
+  margin: 10px 0;
+text-transform: uppercase;
+	font-family: "Aria", sans-serif;
+
+}
+a{
+  text-decoration: none;
+    color: gray;
+}
 .menu{
   list-style: none;
   margin: 0;
   padding: 0;
   float: right;
   height: inherit;
-  //line-height: inherit;
+
   position: absolute;
   right: 1.25em;
   top: 0;
   vertical-align: middle;
+  color: gray;
 }
 
 
@@ -48,56 +59,88 @@ p{
   text-align: center;s
 }
 
+
+.button
+{
+  background: #0272A6;
+  color: #fbfcf7;
+  display: inline-block;
+  width: 200px;
+  padding: 15px 0;
+  margin: 0 auto;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: "Aria", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  margin-top: 50px;
+  text-decoration: none;
+  border-color: gray;
+}
+
+
 h2 {
 font-size: 20px;
 
 }
 
+
 h3 {
 font-size: 30px;
 text-align: center;
 text-transform: uppercase;
+color: gray;
 }
 
 h4 {
 font-size: 1em;
 line-height: 1.5em;
 }
-.columns
+.squares
 {
-	padding: 40px 0;
+	padding: 50px 0;
+
 }
-.column
+.square
 {
-	display: inline-block;
+  display: inline-block;
 	float: left;
-	width: 33.33%;
-	padding: 0 10px;
+	width: 25%;
+	padding: 0 5px;
 	text-align: center;
+  border-style: solid;
+  border-color: lightgray;
+  margin: 0 35px;
+
 }
-.column h4
+.square h4
 {
 
-		font-size: 20px;
-		font-weight: 300;
-		text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase
 }
-.column p
+.square p
 {
-	width: 75%;
-	margin: 0 auto;
-
-	font-weight: 400;
+  width: 75%;
+	margin: 0 20px;
+	font-weight:200;
 	text-align: justify;
 }
-.column .icon1,.column .icon2,.column .icon3
+.square .icon1,.square .icon2,.square .icon3
 {	display: inline-block;
-	width: 64px;
+	width: 24px;
 	height: 64px;
 	background-size: auto;
-	margin: 25px 0;
+	margin: 20px 0;
 }
 .definition_item .icon1
 {
 		background: url("images/lamp.png") no-repeat center center;
+}
+.blackcontainer
+{
+  background-color: black;
+  text-align: center;
+  position: relative;
 }
