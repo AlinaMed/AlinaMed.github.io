@@ -1,0 +1,21 @@
+.menu{
+	position: relative;
+  	display: inline-block;
+}
+ul {
+list-style: none;
+  margin: 0 0 2em 0;
+  padding-left: 1em;
+}
+
+.banner{
+  background-color: #666666;
+  background-image: url("images/banner.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  color: #d8d8d8;
+  padding: 14em 0;
+  text-align: center;
+  position: relative;
+}
