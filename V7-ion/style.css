@@ -119,39 +119,28 @@ p{
 
 
 
-h1
+
+
+
+/*img*/
+.img{
+  width: 100%;
+  radius: 12px;
+}
+
+.square .icon1,.square .icon2,.square .icon3
+{	display: inline-block;
+	width: 24px;
+	height: 64px;
+	background-size: auto;
+	margin: 20px 0;
+}
+.definition_item .icon1
 {
-  color: white;
-  font-size: 40px;
-  font-family: monospace;
-  font-family: 'Nanum Gothic', sans-serif;
-
-
+		background: url("images/lamp.png") no-repeat center center;
 }
-.banner .text{
-  color: white;
-font-family: 'Nanum Gothic', sans-serif;
-}
-
-
-//h2 {
-//ont-size: 20px;
-
-//}
-
-
-h2 {
-font-size: 30px;
-text-align: center;
-text-transform: uppercase;
-color: gray;
-}
-
-h3 {
-font-size: 20px;
-line-height: 1.5em;
-text-transform: uppercase;
-}
+/*img*/
+/*blocks*/
 .squares
 {
 	padding: 50px 0;
@@ -169,32 +158,6 @@ text-transform: uppercase;
   margin: 0 35px;
 
 }
-.square h4
-{
-
-  font-size: 24px;
-  font-weight: 300;
-  text-transform: uppercase
-}
-.square p
-{
-  width: 75%;
-	margin: 0 20px;
-	font-weight:200;
-	text-align: justify;
-}
-.square .icon1,.square .icon2,.square .icon3
-{	display: inline-block;
-	width: 24px;
-	height: 64px;
-	background-size: auto;
-	margin: 20px 0;
-}
-.definition_item .icon1
-{
-		background: url("images/lamp.png") no-repeat center center;
-}
-/*blocks*/
 .containerb
 {
   background-color: rgba(33, 33, 33, 1);
@@ -203,11 +166,6 @@ text-transform: uppercase;
   width: 100%;
   height: 600px;
 }
-.text
-{
-  color: grey;
-}
-
 .column
 {
   display: inline-block;
@@ -223,10 +181,6 @@ text-transform: uppercase;
   border-color: lightgray;
   margin: 0 0px;
 
-}
-.img{
-  width: 100%;
-  radius: 12px;
 }
 .containerb p
 {
@@ -264,12 +218,57 @@ text-transform: uppercase;
   display: inline-block;
   width: 49%;
 }
+/*blocks*/
+/*text*/
+h1
+{
+  color: white;
+  font-size: 40px;
+  font-family: monospace;
+  font-family: 'Nanum Gothic', sans-serif;
+}
+.banner .text{
+  color: white;
+font-family: 'Nanum Gothic', sans-serif;
+}
+
+h2 {
+font-size: 30px;
+text-align: center;
+text-transform: uppercase;
+color: gray;
+}
+
+h3 {
+font-size: 20px;
+line-height: 1.5em;
+text-transform: uppercase;
+}
+.text
+{
+  color: grey;
+}
 .s5 ul a{
   color: gray;
   text-decoration: underline;
-
-
 }
+.square h4
+{
+
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase
+}
+.square p
+{
+  width: 75%;
+	margin: 0 20px;
+	font-weight:200;
+	text-align: justify;
+}
+/*text*/
+
+
 .list
 {
   list-style: none;
@@ -290,3 +289,4 @@ footer span
 	margin: 30px 0;
 
 }
+/*footer*/
