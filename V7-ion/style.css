@@ -134,22 +134,23 @@ font-family: 'Nanum Gothic', sans-serif;
 }
 
 
+//h2 {
+//ont-size: 20px;
+
+//}
+
+
 h2 {
-font-size: 20px;
-
-}
-
-
-h3 {
 font-size: 30px;
 text-align: center;
 text-transform: uppercase;
 color: gray;
 }
 
-h4 {
-font-size: 1em;
+h3 {
+font-size: 20px;
 line-height: 1.5em;
+text-transform: uppercase;
 }
 .squares
 {
@@ -225,6 +226,7 @@ line-height: 1.5em;
 }
 .img{
   width: 100%;
+  radius: 12px;
 }
 .containerb p
 {
@@ -262,6 +264,18 @@ line-height: 1.5em;
   display: inline-block;
   width: 49%;
 }
+.s5 ul a{
+  color: gray;
+  text-decoration: underline;
+
+
+}
+.list
+{
+  list-style: none;
+}
+
+
 /*footer*/
 footer
 {
