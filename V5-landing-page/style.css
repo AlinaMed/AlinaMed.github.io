@@ -1,0 +1,50 @@
+.container
+{
+font-family: 'Lato', sans-serif;
+
+}
+.banner
+{
+background-image: url("landing-page/img/intro-bg.jpg");
+background-size: cover;
+padding: 240px 0;
+}
+button, input, optgroup, select, textarea {
+    margin: 5px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+  }
+.h1, .h2, h1, .h6 {
+
+    color: white;
+  }
+
+
+a {
+    color: #707071;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+
+.bannerbg
+{
+  background-image: url("landing-page/img/banner-bg.jpg");
+  background-size: cover;
+  padding: 60px 0;
+}
+.text
+{
+  font-size: 12px;
+  color: gray;
+}
+.animated {
+
+  -webkit-animation-delay: 1s;
+ -o-animation-delay: 1s;
+ -moz-animation-delay: 1s;
+ animation-delay: 1s;
+
+}
